@@ -11,10 +11,10 @@ const ButtonGroup = ({ onCategoryChange }) => {
 
   return (
     <div>
-      <button onClick={() => handleCategoryChange('All')}>All</button>
-      <button onClick={() => handleCategoryChange('Jewelry')}>Jewelry</button>
-      <button onClick={() => handleCategoryChange("Men's Clothing")}>Men's Clothing</button>
-      <button onClick={() => handleCategoryChange("Women's Clothing")}>Women's Clothing</button>
+      <button onClick={() => handleCategoryChange('all')}>All</button>
+      <button onClick={() => handleCategoryChange('jewelery')}>Jewelery</button>
+      <button onClick={() => handleCategoryChange('men\'s clothing')}>Men's Clothing</button>
+      <button onClick={() => handleCategoryChange('women\'s clothing')}>Women's Clothing</button>
     </div>
   );
 };
