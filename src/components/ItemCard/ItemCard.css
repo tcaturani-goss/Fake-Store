@@ -7,32 +7,34 @@
     justify-content: space-between;
     padding-bottom: 10px;
     border-radius: 8px;
-    box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
+    /* box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
     -webkit-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
-    -moz-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
+    -moz-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47); */
     background-color: white;
     color: black;
     position: relative;
 }
 
+
 .item-card img {
     width: 83px;
     height: 117px;
     margin-bottom: 10px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    align-self: center;
+    border-radius: 8px;
 }
 
 .item-card a {
     margin-top: 10px;
-    border: none;
+    margin-bottom: 10px;
+    border: 1px solid #EFEFEF;
     padding: 8px 16px;
     border-radius: 8px;
     background-color: var(--primary-bg);
     color: white;
     cursor: pointer;
+    align-self: center;
 }
+
 
 h1 {
     font-family: 'Inter';
@@ -47,6 +49,7 @@ h1 {
     font-weight: 400;
     font-size: 10px;
     color: #949494;
+    margin-top: 0.125rem;
 }
 
 h2 {
@@ -55,4 +58,5 @@ h2 {
     font-weight: 600;
     font-size: 0.75rem;
     color: #282828;
+    margin-top: 0.5rem;
 }

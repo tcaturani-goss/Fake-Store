@@ -1,0 +1,159 @@
+.cart-products-title-container {
+    display: flex;
+    gap: 1rem;
+    margin-left: 4.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.right-title-group {
+    display: flex;
+    gap: 1rem;
+    margin-left: 12rem;
+}
+
+.cart-products-title-container p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #979797;
+}
+
+.cart-products-container {
+    display: flex;
+    gap: 0rem 2rem;
+    padding: 1rem 2rem;
+    justify-content: start;
+    border-top: 2px solid #D9D9D999;
+    border-bottom: 2px solid #D9D9D999;
+    position: relative;
+}
+
+.cart-products-container img {
+    width: 6.75rem;
+    height: 9.0625rem;
+}
+
+.cart-product-title {
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cart-product-price, .product-quantity {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin: 0rem;
+    text-align: left;
+}
+
+.trash-icon {
+    width: 8rem;
+    height: 8.5625rem;
+}
+
+.checkout-container {
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.product-total {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cart-checkout-btn {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 0.5rem 2.25rem;
+    background-color: #FFD814;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 0rem;
+    gap: 3rem;
+  }
+  
+  form p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  form .modal-close-btn {
+    background: #5264C3;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    padding: 1rem 1rem;
+  }
+  
+  .modal-close-btn:hover {
+    /* color: var(--primary-bg); */
+    color: red;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea { 
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(102, 92, 171, 0.3);
+  }
+
+
+  form button[type='submit'] {
+    background-color: #5264C3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  form button[type='submit']:hover {
+    /* background-color: var(--primary-bg); */
+    background-color: red;
+  }
+

@@ -1,11 +1,12 @@
-nav {
+.category-btns-container {
     display: flex;
-    justify-content: center;
+    align-content: stretch;
+    margin: 0rem 2rem 2rem 2rem;
+    gap: 1rem 2rem;
     flex-wrap: wrap;
 }
 
-nav a {
-    margin-right: 2rem;
+.category-btns-container p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

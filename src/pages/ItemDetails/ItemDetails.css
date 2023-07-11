@@ -1,0 +1,111 @@
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 50px;
+    /* box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47);
+    -moz-box-shadow: 7px 8px 13px -4px rgba(0,0,0,0.47); */
+    background-color: white;
+    color: black;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.details-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 255, 255, 255, 0.5);
+    z-index: -1;
+}
+
+.details-container img {
+    width: 83px;
+    height: 117px;
+    margin-bottom: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    align-self: center;
+}
+
+.details-container a {
+    margin-top: 10px;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: var(--primary-bg);
+    color: white;
+    cursor: pointer;
+}
+
+.container-info {
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    gap: 1rem;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .container-info span {
+    font-weight: bold;
+    color: var(--primary-bg);
+  }
+
+  .details-product-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .details-product-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #282828;
+  }
+
+  .product-description-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .product-description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .cart-add-btn {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-align: center;
+    align-self: center;
+    padding: 0.5rem 0rem;
+    border: none;
+    width: 50%;
+    background-color: #FFD814;
+  }
